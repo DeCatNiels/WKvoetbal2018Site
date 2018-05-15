@@ -5,7 +5,7 @@ body {
 }
 .keuze {
     margin: 0px;
-    padding: 0px;
+    padding: 60% 0px 0px 0px;
     height: 100%;
     width: 25%;
     border: 2px solid black;
@@ -13,6 +13,56 @@ body {
     float: left;
     box-sizing: border-box;
 }
+
+#logoimage {
+    position: absolute;
+    align-self: center;
+}
+
+.achtergrondformaat {
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a {
+    font-family: Verdana;
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bold;
+    color: beige;
+}
+
+a:hover {
+    color: beige;
+}
+
+.navlink {
+    text-align: center;
+}
+
 .achtergrond1 {
-    /*background-image: "afbeeldingen/bg1.jpg";*/
+    background-image: url("afbeeldingen/bg1.jpg");
+}
+.achtergrond2 {
+    background-image: url("afbeeldingen/bg2.jpg");
+}
+.achtergrond3 {
+    background-image: url("afbeeldingen/bg3.jpg");
+}
+.achtergrond4 {
+    background-image: url("afbeeldingen/bg4.jpg");
+}
+.achtergrond1:hover {
+    background-image: url("afbeeldingen/bg1hover.jpg");
+}
+.achtergrond2:hover {
+    background-image: url("afbeeldingen/bg2hover.jpg");
+}
+.achtergrond3:hover {
+    background-image: url("afbeeldingen/bg3hover.jpg");
+}
+.achtergrond4:hover {
+    background-image: url("afbeeldingen/bg4hover.jpg");
 }
