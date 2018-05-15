@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana;
+}
+
+div {
+    width:80%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 10%;
+    /*background-image: url(RAW/images.jpg);*/
+}
+
+label, input {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label, #toevoegButton {
+    clear: left;
+    margin-left: 10px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#toevoegButton {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 5px;
+    font-size: 18pt;
+    font-style: italic;
+}
+
+.clear:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
