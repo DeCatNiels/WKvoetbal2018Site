@@ -1,5 +1,6 @@
-body {
+body, html{
     font-family: Verdana;
+    width: 100%;
 }
 
 div {
@@ -9,9 +10,10 @@ div {
     border-radius: 5px;
     margin-left: 10%;
     /*background-image: url(RAW/images.jpg);*/
+    max-width: 800px;
 }
 
-label, input {
+label, input, select {
     float: left;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -25,6 +27,11 @@ label, #toevoegButton {
 input {
     margin-top: 5px;
     padding: 5px;
+}
+
+select {
+    margin-top: 10px;
+    width: 150px;
 }
 
 #toevoegButton {
@@ -43,4 +50,38 @@ label {
     display: block;
     height: 0;
     clear: both;
+}
+
+#land {
+    float: left;
+    margin: 0px;
+    margin-left: 4%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+#landen {
+    display: none;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+}
+
+p {
+    float: left;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#beschrijvingOutput {
+    clear: left;
+    width: 100%;
+    font-size: 12pt;
+    font-weight: normal;
 }

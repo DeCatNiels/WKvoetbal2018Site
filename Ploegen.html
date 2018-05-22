@@ -4,19 +4,54 @@
     <meta charset="UTF-8">
     <title>Ploegen</title>
     <link rel="stylesheet" href="Ploegen.css">
-    <script src="Ploegen.js"></script>
+    <script src="Ploegen.js" defer></script>
 </head>
-<body>
+<body id="mainBody" class="clear">
 
 <div class="clear">
     <h1>Maak hier zelf je ploegen aan</h1>
     <label for="naam" id="naamLabel">Naam: </label>
     <input type="text" id="naam" placeholder="Team Name">
     <label for="shortcode">Shortcode: </label>
-    <input type="text" id="shortcode" placeholder="Team Shortcode">
+    <select name="shortcode" id="shortcode">
+        <option value="arg">ARG</option>
+        <option value="aus">AUS</option>
+        <option value="bel">BEL</option>
+        <option value="col">COL</option>
+        <option value="crc">CRC</option>
+        <option value="cro">CRO</option>
+        <option value="den">DEN</option>
+        <option value="egy">EGY</option>
+        <option value="eng">ENG</option>
+        <option value="esp">ESP</option>
+        <option value="fra">FRA</option>
+        <option value="ger">GER</option>
+        <option value="irn">IRN</option>
+        <option value="isl">ISL</option>
+        <option value="jap">JAP</option>
+        <option value="kor">KOR</option>
+        <option value="kro">KRO</option>
+        <option value="mex">MEX</option>
+        <option value="mor">MOR</option>
+        <option value="nig">NIG</option>
+        <option value="pan">PAN</option>
+        <option value="per">PER</option>
+        <option value="pol">POL</option>
+        <option value="por">POR</option>
+        <option value="rus">RUS</option>
+        <option value="sar">SAR</option>
+        <option value="sen">SEN</option>
+        <option value="srb">SRB</option>
+        <option value="sui">SUI</option>
+        <option value="swe">SWE</option>
+        <option value="uru">URU</option>
+    </select>
     <label for="beschrijving">Beschrijving: </label>
     <input type="text" id="beschrijving" placeholder="Team Description">
     <input type="button" value="Toevoegen" id="toevoegButton">
+</div>
+<div class="clear" id="landen">
+
 </div>
 
 
