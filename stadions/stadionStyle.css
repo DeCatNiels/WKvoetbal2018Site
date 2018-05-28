@@ -1,0 +1,7 @@
+html, body { height: 100%;
+width: 100%;}
+#googleMaps{
+    width: 95%;
+    height: 95%;
+    margin-left: 2.5%;
+}
