@@ -1,7 +1,6 @@
 body {
     padding: 0px;
     margin: 0px;
-
 }
 
 header {
@@ -44,13 +43,21 @@ img {
     display: inline-block;
 }
 
+#logoimagenarrow {
+    z-index: 6;
+    width: 250px;
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: none;
+}
+
 .opstelling:hover {
     background-image: url("afbeeldingen/bg03b.png"),
             url("afbeeldingen/bg03.jpg");
 }
 
 .achtergrondformaat {
-    background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -58,7 +65,7 @@ img {
 
 a {
     font-family: Verdana;
-    font-size: 3em;
+    font-size: 5vh;
     text-decoration: none;
     font-weight: bold;
     color: beige;
@@ -86,22 +93,31 @@ a:hover {
 }
 .achtergrond1:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%);
-    filter: brightness(120%);
+    filter: contrast(150%) brightness(120%);
 }
 .achtergrond2:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%);
-    filter: brightness(120%);
+    filter: contrast(150%) brightness(120%);
 
 }
 .achtergrond3:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%);
-    filter: brightness(120%);
+    filter: contrast(150%) brightness(120%);
 }
 .achtergrond4:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%);
-    filter: brightness(120%);
+    filter: contrast(150%) brightness(120%);
+}
+
+@media screen and (max-width: 900px) {
+    .keuze {
+        width: 100%;
+        clear: left;
+    }
+    #logoimage {
+        display: none;
+    }
+    #logoimagenarrow {
+        display: inline-block;
+    }
 }
