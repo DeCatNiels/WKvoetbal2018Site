@@ -3,6 +3,9 @@ let shortCode = document.getElementById('shortcode');
 let beschrijving = document.getElementById('beschrijving');
 let instelKnop = document.getElementById('toevoegButton');
 let landen = document.getElementById("landen");
+let divs = [];
+
+console.log(JSON.parse(localStorage.getItem("saveLanden")));
 
 instelKnop.addEventListener('click', function(){
     let naam = naamIngave.value;
@@ -27,5 +30,9 @@ instelKnop.addEventListener('click', function(){
     element.appendChild(para);
     element.appendChild(desc);
 
-
+    let land = {nm: naam, cd: code, besc: description};
+    divs.id = "opgeslagenLanden";
+    divs.push(land);
 });
+
+localStorage.setItem("saveLanden",JSON.stringify(document.getElementById("opgeslagenLanden")));
