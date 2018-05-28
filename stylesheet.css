@@ -93,20 +93,20 @@ a:hover {
 }
 .achtergrond1:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%) brightness(120%);
+    filter: contrast(110%) brightness(110%);
 }
 .achtergrond2:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%) brightness(120%);
+    filter: contrast(110%) brightness(110%);
 
 }
 .achtergrond3:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%) brightness(120%);
+    filter: contrast(110%) brightness(110%);
 }
 .achtergrond4:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%) brightness(120%);
+    filter: contrast(110%) brightness(110%);
 }
 
 @media screen and (max-width: 900px) {
