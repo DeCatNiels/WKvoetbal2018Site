@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+
 }
 
 header {
@@ -28,9 +29,9 @@ img {
     position: relative;
     margin: 0px;
     padding: 0px;
-    height: 50%;
-    width: 50%;
-    border: 10px solid black;
+    height: 100%;
+    width: 25%;
+    border: 2px solid black;
     display: inline-block;
     float: left;
     box-sizing: border-box;
@@ -43,21 +44,8 @@ img {
     display: inline-block;
 }
 
-#logoimagenarrow {
-    z-index: 6;
-    width: 250px;
-    position: fixed;
-    margin-top: 0px;
-    margin-left: 0px;
-    display: none;
-}
-
-.opstelling:hover {
-    background-image: url("afbeeldingen/bg03b.png"),
-            url("afbeeldingen/bg03.jpg");
-}
-
 .achtergrondformaat {
+    background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -65,7 +53,7 @@ img {
 
 a {
     font-family: Verdana;
-    font-size: 5vh;
+    font-size: 3em;
     text-decoration: none;
     font-weight: bold;
     color: beige;
@@ -80,44 +68,35 @@ a:hover {
 }
 
 .achtergrond1 {
-    background-image: url("afbeeldingen/bg01.jpg");
+    background-image: url("afbeeldingen/bg1.jpg");
 }
 .achtergrond2 {
-    background-image: url("afbeeldingen/bg02.jpg");
+    background-image: url("afbeeldingen/bg2.jpg");
 }
 .achtergrond3 {
-    background-image: url("afbeeldingen/bg03.jpg");
+    background-image: url("afbeeldingen/bg3.jpg");
 }
 .achtergrond4 {
-    background-image: url("afbeeldingen/bg04.jpg");
+    background-image: url("afbeeldingen/bg4.jpg");
 }
 .achtergrond1:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%) brightness(120%);
+    filter: contrast(150%);
+    filter: brightness(120%);
 }
 .achtergrond2:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%) brightness(120%);
+    filter: contrast(150%);
+    filter: brightness(120%);
 
 }
 .achtergrond3:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%) brightness(120%);
+    filter: contrast(150%);
+    filter: brightness(120%);
 }
 .achtergrond4:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
-    filter: contrast(150%) brightness(120%);
-}
-
-@media screen and (max-width: 900px) {
-    .keuze {
-        width: 100%;
-        clear: left;
-    }
-    #logoimage {
-        display: none;
-    }
-    #logoimagenarrow {
-        display: inline-block;
-    }
+    filter: contrast(150%);
+    filter: brightness(120%);
 }

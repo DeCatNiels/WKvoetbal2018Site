@@ -5,3 +5,25 @@ width: 100%;}
     height: 95%;
     margin-left: 2.5%;
 }
+
+.marker{
+    display: none;
+}
+
+#dialog{
+    height: 200px;
+    width: 300px;
+
+}
+
+#dialog #image{
+    float: left;
+    height: 130px;
+    width: 130px;
+    margin-right: 10px;
+}
+
+#dialog H1{
+    font-size: 13pt;
+    font-weight: bold;
+}
