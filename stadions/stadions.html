@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Stadions</title>
-    <script src="stadions.js" async></script>
-    <script src="navigation.js" async></script>
+    <script src="stadions.js"></script>
+    <script src="navigation.js"></script>
     <link href="stadionStyle.css" rel="stylesheet">
 </head>
 <body>
     <div id="googleMaps"></div>
+    <dialog id="dialog">
+        <h1 id="title">title</h1>
+        <img id="image" src="">
+        <p>Locatie</p>
+        <p id="locatie"></p>
+        <p>Capaciteit:</p>
+        <p id="capaciteit"></p>
+        <button id="sluiten" >Sluiten</button>
+    </dialog>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgyCynn5g84_R93RnkWZm_VQ0BEqegKvk&callback=myMap">
 </script>
 </body>
