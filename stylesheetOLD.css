@@ -29,9 +29,9 @@ img {
     position: relative;
     margin: 0px;
     padding: 0px;
-    height: 50%;
-    width: 50%;
-    border: 10px solid black;
+    height: 100%;
+    width: 25%;
+    border: 2px solid black;
     display: inline-block;
     float: left;
     box-sizing: border-box;
@@ -42,11 +42,6 @@ img {
     position: absolute;
     margin: 20px -125px;
     display: inline-block;
-}
-
-.opstelling:hover {
-    background-image: url("afbeeldingen/bg03b.png"),
-            url("afbeeldingen/bg03.jpg");
 }
 
 .achtergrondformaat {
@@ -73,16 +68,16 @@ a:hover {
 }
 
 .achtergrond1 {
-    background-image: url("afbeeldingen/bg01.jpg");
+    background-image: url("afbeeldingen/bg1.jpg");
 }
 .achtergrond2 {
-    background-image: url("afbeeldingen/bg02.jpg");
+    background-image: url("afbeeldingen/bg2.jpg");
 }
 .achtergrond3 {
-    background-image: url("afbeeldingen/bg03.jpg");
+    background-image: url("afbeeldingen/bg3.jpg");
 }
 .achtergrond4 {
-    background-image: url("afbeeldingen/bg04.jpg");
+    background-image: url("afbeeldingen/bg4.jpg");
 }
 .achtergrond1:hover {
     -webkit-filter: contrast(120%); /* Safari 6.0 - 9.0 */
